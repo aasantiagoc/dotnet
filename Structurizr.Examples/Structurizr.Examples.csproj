@@ -34,9 +34,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Structurizr.Examples.FinancialRiskSystem</StartupObject>
+    <StartupObject>Structurizr.Examples.Epiq11</StartupObject>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="BookingSample.cs" />
+    <Compile Include="CaseManagement.cs" />
+    <Compile Include="Epiq11.cs" />
     <Compile Include="FinancialRiskSystem.cs" />
     <Compile Include="ClientSideEncryptedWorkspace.cs" />
     <Compile Include="GettingStarted.cs" />

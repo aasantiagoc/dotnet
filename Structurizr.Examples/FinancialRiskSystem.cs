@@ -109,6 +109,7 @@ namespace Structurizr.Examples
             Styles styles = viewSet.Configuration.Styles;
             financialRiskSystem.AddTags("Risk System");
 
+
             styles.Add(new ElementStyle(Tags.Element) { Color = "#ffffff", FontSize = 34 });
             styles.Add(new ElementStyle("Risk System") { Background = "#8a458a" });
             styles.Add(new ElementStyle(Tags.SoftwareSystem) { Width = 650, Height = 400, Background = "#510d51", Shape = Shape.Box });
